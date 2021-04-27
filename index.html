@@ -7,8 +7,38 @@
     <title>Youtube Clone</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        <a href="#">
+            <img src="logo.png" alt="YouTube Logo" 
+            class="youtube-logo" />
+        </a>
+        <form class="search-bar">
+            <input type="search" class="search-input"
+            placeholder="Search" aria-label="Search">
+        </form>
+        <button type="submit" class="search-btn">
+            <span class="material-icons">search</span>
+        </button>
+        
+        <div class="menu-icons">
+            <a href="#">
+                <span class="material-icons">video_call</span>                    
+            </a>
+            <a href="#">
+                <span class="material-icons">apps</span>                    
+            </a>
+            <a href="#">
+                <span class="material-icons">notifications</span>                    
+            </a>
+            <a href="#">
+                <img class="menu-channel-icon" src="http://unsplash.it/36/36?gravity=center"
+                alt="Your Channel">                 
+            </a>
+        </div>
+    </header>
     <div class="categories">
         <section class="category-section">
             <button class="category active">All</button>
