@@ -160,7 +160,9 @@ body {
 }
 
 .youtube-logo {
-    height: 20px;
+    height: 36px;
+    position: relative;
+    top: 2px;
 }
 
 .search-bar {
@@ -188,6 +190,7 @@ body {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     cursor: pointer;
+    color: #818181;
 }
 
 .search-btn:hover {
@@ -199,6 +202,10 @@ body {
     grid-template-columns: repeat(4, auto);
     align-items: center;
     gap: 1.5rem;
+}
+
+.menu-icons a {
+    color: #606060;
 }
 
 .menu-channel-icon {
